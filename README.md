@@ -24,5 +24,5 @@ If you have any problem about this library, please create an Issue or send us an
 
 wangshanshan@cqu.edu.cn
 
-leizhang@cqu.edu.c
+leizhang@cqu.edu.cn
 
