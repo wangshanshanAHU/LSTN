@@ -1,0 +1,10 @@
+function L = computeLastL(h,z,actfuncType,P,Q)
+[d,N] = size(h);
+L = zeros(d,N,N);
+for i = 1:N
+    for j = 1:N
+        if P(i,j) == 1 || Q(i,j) == 1
+            L(:,i,j) = (h(:,i)-h(:,j)) .* devAct
+        end
+    end
+end
